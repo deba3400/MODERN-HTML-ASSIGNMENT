@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 </title>
+    <style>
+        .personal{
+            width:400px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <H1 style="text-decoration: underline;">Semantic Tags</H1>
+    </header>
+    <main>
+        <section>
+            <h2>This is a Section part in main</h2>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur et delectus id est laborum. Aperiam fuga ex facilis veniam incidunt, voluptas optio! Assumenda, laboriosam delectus? Ipsum ab nemo dignissimos eveniet? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis adipisci numquam porro, ad non aspernatur quis atque obcaecati dolorem, modi quidem incidunt corporis magni accusamus omnis? Aliquid, ea. Totam quos atque, omnis impedit sunt laudantium porro voluptatem dolor nesciunt sapiente at nostrum pariatur id commodi nulla error, accusamus voluptatum molestiae rerum aspernatur praesentium facere iusto hic. Mollitia at culpa numquam.
+                </p>
+                <h3>we can also use multimedia tag </h3>
+                <audio src="" controls></audio>
+                <video src="" controls></video>
+                <h3>Semantic Tags</h3>
+                <ul>
+                  <li>header:header denote top of the page</li>
+                  <li>main: main part define main content in it.</li>
+                  <li>section: section define a portion for particular content </li>
+                  <li>footer: this indicate that this is the end of page</li>
+
+                </ul>
+            </article>
+        </section>
+        <section class="personal">
+            <form action="" method="get">
+            <fieldset>
+                <legend>Personals Details</legend>
+                <label for="fname">First Name:
+                </label>
+                <input type="text" id="fname" name="first name " required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required><br><br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required><br><br>
+                <label for="gender">Gender:</label> 
+                <label for="male">male</label>
+                <input type="radio" name="gender" id="gender" value="male">
+                <label for="female">female</label>
+                <input type="radio" name="gender" id="gender" value="female"><br><br>
+                <input type="submit" value="submit" aria-label="submit form" tabindex="2">
+            </fieldset>
+        </form>
+        </section>
+    </main>
+    <footer>
+        This is the end of my page.
+    </footer>
+</body>
+</html>

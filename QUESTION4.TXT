@@ -1,0 +1,54 @@
+1. **Use Semantic HTML:**
+   Employing semantic HTML elements helps convey the correct structure and meaning of content. For example, using `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, and `<footer>` tags appropriately provides a clear document structure that aids screen readers and other assistive technologies in interpreting and presenting content accurately.
+
+   ```html
+   <header>
+       <h1>Website Title</h1>
+       <nav>
+           <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Contact</a></li>
+           </ul>
+       </nav>
+   </header>
+
+   <main>
+       <article>
+           <h2>Article Title</h2>
+           <p>Article content...</p>
+       </article>
+
+       <section>
+           <h2>Section Title</h2>
+           <p>Section content...</p>
+       </section>
+   </main>
+
+   <footer>
+       <p>&copy; 2024 Website Name. All rights reserved.</p>
+   </footer>
+   ```
+
+2. **Provide Alternative Text for Images:**
+   Include descriptive alternative text for images using the `alt` attribute. This text is read aloud by screen readers, providing context and information for users who cannot see the images. This is essential for making visual content accessible.
+
+   ```html
+   <img src="example.jpg" alt="A descriptive text about the content or purpose of the image">
+   ```
+
+3. **Ensure Keyboard Accessibility:**
+   Make sure all interactive elements on your website are accessible via keyboard navigation. This is crucial for users who rely on keyboards or alternative input devices. Test and implement focus styles, ensure proper tab order, and make interactive elements like buttons and links keyboard accessible.
+
+   ```html
+   <button onclick="myFunction()" onkeypress="myFunction()">Click me</button>
+   ```
+
+   Additionally, use the `tabindex` attribute to control the order in which elements receive focus.
+
+   ```html
+   <input type="text" tabindex="1">
+   <button tabindex="2">Submit</button>
+   ```
+
+Implementing these practices ensures a more inclusive and accessible web experience for users with different abilities.

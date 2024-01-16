@@ -1,0 +1,17 @@
+INTRODUCTION OF HTML ENTITIES:
+
+
+HTML entities are special codes used to represent reserved characters and symbols in HTML. They begin with an ampersand (&) and end with a semicolon (;). For example, "&lt;" represents the less-than sign (<), and "&amp;" represents the ampersand itself (&). These entities are essential for displaying characters that have special meanings in HTML, ensuring proper rendering in browsers. Using entities helps prevent parsing errors and ensures the correct display of content.
+
+FIVE COMMON USE OF HTML ENTITIES:
+
+
+1. **Less-than (<):** Represented as `&lt;`, it is used to display the less-than symbol without triggering the start of an HTML tag.
+
+2. **Greater-than (>):** Represented as `&gt;`, it prevents the interpretation of the greater-than symbol as the end of an HTML tag.
+
+3. **Ampersand (&):** Represented as `&amp;`, it displays the ampersand character without starting an entity or HTML entity reference.
+
+4. **Quotation Mark ("):** Represented as `&quot;`, it is used to display a double quotation mark without signaling the start or end of an attribute value.
+
+5. **Non-Breaking Space ( ):** Represented as `&nbsp;`, it creates a space that prevents browsers from collapsing consecutive spaces, ensuring the display of multiple spaces without consolidation.
